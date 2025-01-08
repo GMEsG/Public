@@ -38,11 +38,11 @@ button.run{
     margin: 0px 8px;
 }
 
-button:hover.green{
+button:hover.sub{
     background-color: #048f5c;
     color: white;
 }
-button:hover.blue{
+button:hover.run{
     background-color: #3573c4;
     color: white;
 }
