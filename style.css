@@ -1,0 +1,20 @@
+body{
+    background-color: #010409;
+}
+button.blue{
+    background-color: #4493F8;
+    border-radius: 10px;
+    border: 0px;
+    font-size: x-large;
+    color: #F0F6FC;
+    height: 60px;
+    width: 150px;
+}
+div{
+    font-family: "Times New Roman", Times, serif;;
+    height: 100px;
+    width: 100%;
+    color: #F0F6FC;
+    background-color: #0D1117;
+    overflow: scroll;
+}
