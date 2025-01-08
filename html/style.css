@@ -11,7 +11,7 @@ button.blue{
     width: 150px;
 }
 div{
-    font-family: "Times New Roman", Times, serif;;
+    border-radius: 5px;
     height: 100px;
     width: 100%;
     color: #F0F6FC;
