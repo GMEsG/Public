@@ -1,15 +1,7 @@
 body{
     background-color: #010409;
 }
-button.green{
-    background-color: #04AA6D;
-    border-radius: 10px;
-    border: 0px;
-    font-size: x-large;
-    color: #F0F6FC;
-    height: 60px;
-    width: 150px;
-}
+
 div{
     border-radius: 5px;
     height: 100px;
@@ -17,13 +9,40 @@ div{
     color: #F0F6FC;
     background-color: #0D1117;
     overflow: scroll;
+    margin: 12px 8px;
 }
-button {
+
+button{
     transition-duration: 0.4s;
     cursor: pointer;
 }
-  
-button:hover {
+
+
+button.sub{
+    background-color: #04AA6D;
+    border-radius: 10px;
+    border: 0px;
+    font-size: x-large;
+    color: #F0F6FC;
+    height: 50px;
+    width: 230px;
+}
+button.run{
+    background-color: #4493F8;
+    border-radius: 20px;
+    border: 0px;
+    font-size: x-large;
+    color: #F0F6FC;
+    height: 35px;
+    width: 80px;
+    margin: 0px 8px;
+}
+
+button:hover.green{
     background-color: #048f5c;
+    color: white;
+}
+button:hover.blue{
+    background-color: #3573c4;
     color: white;
 }
