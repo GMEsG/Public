@@ -1,8 +1,8 @@
 body{
     background-color: #010409;
 }
-button.blue{
-    background-color: #4493F8;
+button.green{
+    background-color: #04AA6D;
     border-radius: 10px;
     border: 0px;
     font-size: x-large;
@@ -17,4 +17,13 @@ div{
     color: #F0F6FC;
     background-color: #0D1117;
     overflow: scroll;
+}
+button {
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: #048f5c;
+    color: white;
 }
