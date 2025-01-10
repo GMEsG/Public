@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <script src="https://randojs.com/1.0.0.js"></script>
+        <script>
+            s = ["مافیا", "دکتر", "زره پوش", "تفنگدار"]
+            function Random(){
+                n = rando(1, 4);
+            }
+        </script>
+        <style>
+            body{
+                background-color: #010409;
+            }
+            button.next{
+                border: 0px;
+                border-radius: 30px;
+                color: #F0F6FC;
+                background-color: #04AA6D;
+                width: 150px;
+                height: 50px;
+                font-size: x-large;
+                text-align: center;
+                cursor: pointer;
+                transition-duration: 0.4s;
+            }
+            button:hover{
+                background-color: #038656;
+            }
+            p{
+                color: #F0F6FC;
+            }
+        </style>
+    </head>
+    <body>
+        <p id="demo"></p>
+        <script>function check(){document.getElementById("demo").innerHTML = s[n];}</script>
+        <button class="next" onclick="check()">Next</button>
+    </body>
+</html>
